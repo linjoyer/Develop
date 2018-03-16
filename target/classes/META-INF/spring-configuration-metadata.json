@@ -1,0 +1,33 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.tch.common.jwt.MyAudience",
+      "name": "audience",
+      "type": "com.tch.common.jwt.MyAudience"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.tch.common.jwt.MyAudience",
+      "name": "audience.base64-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tch.common.jwt.MyAudience",
+      "name": "audience.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tch.common.jwt.MyAudience",
+      "defaultValue": 0,
+      "name": "audience.expires-second",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tch.common.jwt.MyAudience",
+      "name": "audience.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
